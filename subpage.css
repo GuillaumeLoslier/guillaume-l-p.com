@@ -228,6 +228,18 @@ img{
   width: 500px;
   margin: 0 auto;
 }
+  
+.tartist-tiny-slider__item{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 150px;
+  font-size: 1.2em;
+  background-color: #2779a87e;
+  color: #ffffff;
+  font-family: 'Epilogue', sans-serif;
+  
+  
 }
 
 @media (max-width: 500px){
