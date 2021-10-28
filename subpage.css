@@ -138,6 +138,15 @@ img{
   
 
 }
+.tartist-tiny-slider__item::before {
+   content:"";
+   display:block;
+   padding-top:100%;
+   background:currentColor;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
 .tartist-tiny-slider__item:nth-child(2n+1){
   background-color: #ffc20c5b;
   color: #212121;
