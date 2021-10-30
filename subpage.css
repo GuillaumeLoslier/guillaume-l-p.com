@@ -424,6 +424,7 @@ clip-path: circle(80.3% at 40% 78%);
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-rows: 240px;
+
 }
 
 .card {
@@ -455,4 +456,10 @@ clip-path: circle(80.3% at 40% 78%);
   .card-wide {
     grid-column: span 2 / auto;
   }
+}
+
+iframe {
+
+  width: 90%;
+  height: auto;
 }
