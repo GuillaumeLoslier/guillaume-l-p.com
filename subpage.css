@@ -97,6 +97,19 @@ img{
 }
 
 
+::-moz-selection {
+  color: black;
+  background: lightGray;
+}
+::selection {
+  color: black;
+  background: lightGray;
+}
+
+
+
+/* This is the styling for the image carrousel */
+
 
 
 .carousel-captions {
@@ -164,6 +177,7 @@ clip-path: circle(80.3% at 40% 78%);
   .description {
     width: 768px;
     margin: 0 auto;
+    font-size: 1.3em;
   }
 
   .tartist-tiny-slider-wrap{
@@ -277,14 +291,15 @@ clip-path: circle(80.3% at 40% 78%);
 .accordion dl,
 .accordion-list {
    border:1px solid #ddd;
-   &:after {
-       content: "";
-       display:block;
-       height:1em;
-       width:100%;
-       background-color:darken(#3838cc31, 10%);
-     }
 }
+.accordion-list::after {
+  content: "";
+  display:block;
+  height:1em;
+  width:100%;
+  background-color:darken(#3838cc31, 10%);
+}
+
 .accordion dd,
 .accordion__panel {
    background-color:rgba(238, 238, 238, 0.194);
@@ -310,7 +325,7 @@ clip-path: circle(80.3% at 40% 78%);
  
   border: 1px solid rgba( 255, 255, 255, 0.18 );
  
-  background-color:#d0d0d080; 
+  background-color: lightgrey; 
    text-align:center;
      font-weight:700; 
           padding:2em;
@@ -318,26 +333,32 @@ clip-path: circle(80.3% at 40% 78%);
           text-decoration:none;
           color:rgb(0, 0, 0);
           transition:background-color 0.5s ease-in-out;
-  border-bottom:1px solid darken(#38cc70, 5%);
-  &:before {
-   content: "+";
-   font-size:1.5em;
-   line-height:0.5em;
-   float:left; 
-   transition: transform 0.3s ease-in-out;
-  }
-  &:hover {
-    background-color:darken(#38cc70, 10%);
-  }
+  border-bottom:1px solid darken(#ffffff, 5%);}
+
+  .accordionTitle:before,
+.accordion__Heading:before {
+  content: "+";
+  font-size: 1.5em;
+  line-height: 0.5em;
+  float: left;
+  transition: transform 0.3s ease-in-out;
 }
-.accordionTitleActive, 
+.accordionTitle:hover,
+.accordion__Heading:hover {
+  background-color: #ffc20c5b;
+}
+
+.accordionTitleActive,
 .accordionTitle.is-expanded {
-   background-color:darken(#38cc70, 10%);
-    &:before {
-     
-      transform:rotate(-225deg);
-    }
+  background-color: #ffc20c5b;
 }
+.accordionTitleActive:before,
+.accordionTitle.is-expanded:before {
+  transform: rotate(-225deg);
+}
+
+
+
 .accordionItem {
     height:auto;
     overflow:hidden; 

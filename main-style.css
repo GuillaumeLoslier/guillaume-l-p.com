@@ -169,6 +169,17 @@ a[href^="mailto"] svg {
   grid-column: 1;
   font-weight: 500;
 }
+
+::-moz-selection {
+  color: black;
+  background: lightGray;
+}
+::selection {
+  color: black;
+  background: lightGray;
+}
+
+
 @media screen and (min-width: 37.5rem) {
   .content {
     font-size: var(--font-size--body, 1.5rem);
