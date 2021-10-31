@@ -205,6 +205,9 @@ clip-path: circle(80.3% at 40% 78%);
     font-size: 1.3em;
   }
 
+
+
+
   .tartist-tiny-slider-wrap{
     width: 768px;
     margin: 0 auto;
@@ -309,8 +312,8 @@ clip-path: circle(80.3% at 40% 78%);
 }
 
 .heading-primary {
-  font-size:2em;
-  padding:2em;
+  font-size:1em;
+  padding:1em;
   text-align:center;
 }
 .accordion dl,
@@ -333,7 +336,7 @@ clip-path: circle(80.3% at 40% 78%);
 }
 .accordion p {
   font-family: 'Lato', sans-serif;
-  padding:1em 2em 1em 2em;
+  padding:1em 1em 1em 1em;
 }
 
 .accordion {
@@ -346,7 +349,7 @@ clip-path: circle(80.3% at 40% 78%);
 .container {
   max-width:960px;
   margin:0 auto;
-  padding:2em 0 2em 0;
+  padding:1em 0 1em 0;
 }
 .accordionTitle,
 .accordion__Heading {
@@ -357,18 +360,19 @@ clip-path: circle(80.3% at 40% 78%);
   align-self: flex-start;
    text-align:center;
      font-weight:700; 
-          padding :2em;
+          padding :1em;
+          width: 100%;
           display:block;
           text-decoration:none;
           color:rgb(0, 0, 0);
           transition:background-color 0.5s ease-in-out;
-  border-bottom:1px solid darken(#ffffff, 5%);}
+  border-bottom:10px solid darken(#ffffff, 5%);}
   
 
   .accordionTitle:before,
 .accordion__Heading:before {
   content: "🕺🏻🤸🏽‍♀️";
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 0.5em;
   float: left;
   transition: transform 0.3s ease-in-out;
