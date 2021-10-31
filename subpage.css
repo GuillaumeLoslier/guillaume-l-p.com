@@ -500,16 +500,13 @@ clip-path: circle(80.3% at 40% 78%);
 .tab {
 	float: left;
   max-width: 80%;
-  justify-content: space-between;
 
 }
 
 .tab label {
   display: flex;
-  align-items: center;
-  justify-content: center;
 	justify-content: space-between;
-	margin-right: 20px;
+	margin-right: 1rem;
 	position: relative;
 	top: 0;
 	cursor: pointer;
