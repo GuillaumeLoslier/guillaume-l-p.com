@@ -260,6 +260,7 @@ clip-path: circle(80.3% at 40% 78%);
 
 @media (max-width: 600px){
 
+  
   .description {
   width: 500px;
   margin: 0 auto;
@@ -277,6 +278,7 @@ clip-path: circle(80.3% at 40% 78%);
   
   
 }
+
 
 @media (max-width: 500px){
 
@@ -486,7 +488,3 @@ clip-path: circle(80.3% at 40% 78%);
   }
 }
 
-iframe {
-  width: 90%;
-  height: auto;
-}
