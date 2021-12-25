@@ -61,6 +61,14 @@ img{
   
 }
 
+.carousel-control.prev {
+  place-self: center left;
+}
+
+.carousel-control.next {
+  place-self: center right;
+}
+
 
 .title {
   position: relative;
