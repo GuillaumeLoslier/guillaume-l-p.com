@@ -146,6 +146,16 @@ img{
   
 }
 
+
+.carousel-control.prev {
+  place-self: center left;
+}
+
+.carousel-control.next {
+  place-self: center right;
+}
+
+
 .tartist-tiny-slider-wrap{
   width: 100%;
   padding: 0;
