@@ -155,11 +155,11 @@ img{
 }
 
 
-.carousel-control.prev {
+.carousel-control prev {
   place-self: center left;
 }
 
-.carousel-control.next {
+.carousel-control next {
   place-self: center right;
 }
 
