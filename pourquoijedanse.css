@@ -11,6 +11,10 @@ html {
   background-image:linear-gradient(#847dd0,#F1F8FF);
   
 }
+
+
+
+
 img{
   max-width: 100%;
   height: auto;
@@ -30,12 +34,15 @@ body h1 {
   text-align: center;
   font-family: 'Epilogue', sans-serif;;
   color: rgb(0, 0, 0);
-  font-size: 50px;
-  font-weight: normal;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 0;
 }
+
+
 body .adder {
   position: relative;
-  width: 250px;
+  width: 15rem;
   margin: 0px auto;
   display: block;
 }
@@ -47,19 +54,19 @@ body .adder .input {
   border: 1px solid white;
   background-color: #162e4bec;
   color: white;
-  height: 50px;
-  width: 250px;
-  padding-left: 10px;
+  height: 3rem;
+  width: 15rem;
+  padding-left: 0.6rem;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  font-size: 16px;
-  margin-left: -5px;
+  font-size: 1rem;
+  margin-left: -0.3rem;
 }
 body .adder span {
   position: absolute;
   right: 0;
   top: 0;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 800;
   line-height: 1.8;
   cursor: pointer;
@@ -77,12 +84,12 @@ body ul .draggable {
   will-change: transform;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  height: 50px;
+  height: 3rem;
   list-style-type: none;
   margin: 10px;
   background-color: rgba(244, 244, 195, 0.762);
   color: #04346f;
-  width: 250px;
+  width: 15rem;
   line-height: 3.2;
   padding-left: 10px;
   cursor: move;
@@ -94,7 +101,7 @@ body ul .draggable {
 body ul .draggable:after {
   content: "glisse-moi";
   right: 7px;
-  font-size: 10px;
+  font-size: 0.7rem;
   position: absolute;
   cursor: pointer;
   line-height: 5;
