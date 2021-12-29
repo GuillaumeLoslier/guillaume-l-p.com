@@ -8,7 +8,10 @@ html {
   --font-primary: 'Epilogue', sans-serif;
   --font-header: var(--font-primary);
   --font-size--intro-header: 4rem;
-  background-image:linear-gradient(#847dd0,#F1F8FF);
+  background : url(/Images/background-lines-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   
 }
 

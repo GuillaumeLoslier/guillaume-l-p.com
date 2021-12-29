@@ -126,8 +126,17 @@ html {
   --font-primary: 'Epilogue', sans-serif;
   --font-header: var(--font-primary);
   --font-size--intro-header: 4rem;
-  background-image:linear-gradient(#baa4f4,#F1F8FF);
-  
+  /* background-image:linear-gradient(#baa4f4,#F1F8FF); */
+  /* background : url(/Images/background-lines.jpg),
+               url(/Images/suggestions-pour-danser/guillaume-poings.jpeg);
+background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  background : url(/Images/background-lines-1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -170,6 +179,8 @@ a[href^="mailto"] svg {
   font-weight: 500;
 }
 
+  
+
 ::-moz-selection {
   color: black;
   background: lightGray;
@@ -211,14 +222,16 @@ code {
   padding: 0.15em 0.25em;
 }
 body {
-  
   color: #443a45;
   font-family: var(--font-primary);
+
 }
 .main {
   max-width: 67rem;
   padding: 0 1rem;
   margin: 5rem auto 0;
+  /* background-color: rgba(188, 201, 211, 0.767); */
+
 }
 @media screen and (min-width: 37.5rem) {
   .main {
@@ -244,6 +257,7 @@ body {
 .nav {
   max-width: 67rem;
   margin: 2rem auto 6rem;
+
 }
 .nav-list {
   list-style-type: none;
@@ -274,6 +288,9 @@ body {
   font-family: var(--font-header);
   display: flex;
   flex-direction: column-reverse;
+
+
+
 }
 @media screen and (min-width: 37.5rem) {
   .intro--writing {
