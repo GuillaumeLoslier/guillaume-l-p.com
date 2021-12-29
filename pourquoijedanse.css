@@ -8,7 +8,7 @@ html {
   --font-primary: 'Epilogue', sans-serif;
   --font-header: var(--font-primary);
   --font-size--intro-header: 4rem;
-  background : url(/Images/background-lines-1.png);
+  background : url(/Images/background-lines-1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
