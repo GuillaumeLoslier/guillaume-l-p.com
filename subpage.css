@@ -151,6 +151,7 @@ a[href^="mailto"] svg {
   padding: 1em;
 }
 
+
 .description-diagram {
   display: grid;
   grid-template-columns: auto;
