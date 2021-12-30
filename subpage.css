@@ -133,7 +133,42 @@ a[href^="mailto"] svg {
   color: #828201;
 }
 
-
+.colored-list-a {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+  color: #3477db;
+}
+.colored-list-b {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+  color: #019875;
+}
+.colored-list-c {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+  color: #e65722;
+}
+.colored-list-d {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+  text-align: center;
+  z-index: 1;
+  color: #828201;
+}
 
 .description {
   display: grid;
