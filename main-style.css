@@ -193,7 +193,7 @@ a[href^="mailto"] svg {
 }
 ::selection {
   color: black;
-  background: lightGray;
+  background: rgb(172, 15, 196);
 }
 
 

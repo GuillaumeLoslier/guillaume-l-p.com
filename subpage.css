@@ -42,6 +42,10 @@ a[href^="mailto"] svg {
 
   display: none;
 }
+::selection {
+  color: black;
+  background: rgb(172, 15, 196);
+}
 
 
 .nav {
