@@ -144,7 +144,8 @@ a[href^="mailto"] svg {
   padding: 1rem;
   text-align: center;
   z-index: 1;
-  color: #3477db;
+  color: #ba4f2e;
+
 }
 .colored-list-b {
   position: relative;
@@ -153,7 +154,7 @@ a[href^="mailto"] svg {
   padding: 1rem;
   text-align: center;
   z-index: 1;
-  color: #019875;
+  color: #005944;
 }
 .colored-list-c {
   position: relative;
@@ -162,7 +163,8 @@ a[href^="mailto"] svg {
   padding: 1rem;
   text-align: center;
   z-index: 1;
-  color: #e65722;
+
+  color: #112760;
 }
 .colored-list-d {
   position: relative;
@@ -171,7 +173,7 @@ a[href^="mailto"] svg {
   padding: 1rem;
   text-align: center;
   z-index: 1;
-  color: #828201;
+  color: #671464;
 }
 
 .description {
