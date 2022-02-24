@@ -616,6 +616,7 @@ clip-path: circle(80.3% at 40% 78%);
 .tab {
 	float: left;
   max-width: 80%;
+  font-family: inherit;
 
 }
 
@@ -639,7 +640,7 @@ clip-path: circle(80.3% at 40% 78%);
 .tab__content {
 
   font-size: 1.5rem;
-  max-width: 90%;
+  max-width: 80%;
    position: relative;
 	top: 100px;
 	left: 1.5em;
