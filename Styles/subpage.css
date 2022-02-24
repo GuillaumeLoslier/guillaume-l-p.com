@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;800&family=Lato&display=swap');
 
 
-
 body{
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
@@ -594,7 +593,15 @@ clip-path: circle(80.3% at 40% 78%);
   margin: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
+  .tab label {
+    margin-right: 0rem;
+    font-size: 1.2rem;
+  }
+
+
+  
+
   .card-tall {
     grid-row: span 2 / auto;
   }
@@ -621,15 +628,19 @@ clip-path: circle(80.3% at 40% 78%);
 }
 
 .tab label {
-  display: flex;
-	justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr);
 	margin-right: 1rem;
 	position: relative;
 	top: 0;
 	cursor: pointer;
 	color: #333;
-   text-transform: uppercase;
-   font-size: 2.5em;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+
+
+ 
 
 }
 
