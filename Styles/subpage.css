@@ -608,7 +608,7 @@ clip-path: circle(80.3% at 40% 78%);
 .tabs {
 	clear: both;
 	position: relative;   
-   max-width: 100%;
+   max-width: 80%;
    margin: 0 auto;
    /* you can either manually set a min-height here or do it via JS ---> */
 }
