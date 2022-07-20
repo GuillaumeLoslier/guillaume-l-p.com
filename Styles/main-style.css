@@ -340,7 +340,7 @@ body {
   font-size: var(--font-size--intro);
   font-weight: 700;
 }
-.intro__guillaume {
+.intro__guillaumes {
   grid-column-end: span 4;
   position: relative;
   align-self: stretch;
