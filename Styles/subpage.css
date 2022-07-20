@@ -4,10 +4,12 @@
 body{
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
-  background : url(/Images/background-lines-1.jpg);
+  /* background : url(/Images/background-lines-1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #cbf3f0;
+
 
 }
 img{

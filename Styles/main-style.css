@@ -133,10 +133,11 @@ background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
-  background : url(/Images/background-lines-1.jpg);
+  /* background : url(/Images/background-lines-1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #cbf3f0;
 }
 
 h1 {
@@ -321,7 +322,7 @@ body {
   color: #019875;
 }
 .intro__content [data-guillaume]:nth-of-type(3) {
-  color: #e65722;
+  color: #d88716;
 }
 .intro__content [data-guillaume]:nth-of-type(4) {
   color: #d50000;
