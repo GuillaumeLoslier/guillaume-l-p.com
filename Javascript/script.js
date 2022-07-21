@@ -537,6 +537,13 @@ parcelRequire = (function (e, r, t, n) {
   null
 );
 
+if (window.matchMedia('(max-width: 767px)').matches) {
+  function t() {
+      return false;
+  }
+} else {};
+
+
 (function($, document) {
     
    // get tallest tab__content element
