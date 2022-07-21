@@ -138,6 +138,10 @@
 
 
     </main>
-    <script src="/Javascript/script.js"></script>
-  </body>
+    <script>
+      if(screen.width >= 720) {
+          document.head.appendChild(document.createElement('script')).src = '/Javascript/script.js';
+      }
+      </script>
+        </body>
 </html>

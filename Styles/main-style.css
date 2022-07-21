@@ -346,7 +346,7 @@ body {
   align-self: stretch;
 }
 .intro__image {
-  border-radius: 100%;
+  border-radius: 60%;
   max-width: 60%;
 }
 @media screen and (min-width: 37.5rem) {
