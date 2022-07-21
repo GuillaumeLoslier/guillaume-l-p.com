@@ -484,6 +484,7 @@ parcelRequire = (function (e, r, t, n) {
             return (
               u(t, [
                 {
+                  
                   key: "handleguillaumeActivation",
                   value: function (t) {
                     var n = this,
@@ -536,12 +537,12 @@ parcelRequire = (function (e, r, t, n) {
   ["Focm"],
   null
 );
-
-if (window.matchMedia('(max-width: 767px)').matches) {
-  function t() {
-      return false;
+window.addEventListener("resize", function() {
+  if (window.matchMedia("(min-width: 500px)").matches) {
+    console.log("Screen width is at least 500px")
+  } else {
   }
-} else {};
+})
 
 
 (function($, document) {
