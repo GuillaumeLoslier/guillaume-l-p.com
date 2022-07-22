@@ -1,8 +1,14 @@
 :root {
   --ff-primary: Heebo, sans-serif;
-  --ff-secondary: Bungee, cursive;
+  --ff-secondary: Epilogue, sans;
   --ff-accent: Bungee Shade, cursive;
 }
+
+html {
+
+  background-color: #f1efe9;
+}
+
 
 /* Box sizing rules */
 *,
@@ -10,6 +16,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 
 /* Remove default margin */
 body,
@@ -134,7 +141,7 @@ body {
 }
 
 .card__price {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .card__img {
