@@ -215,3 +215,9 @@ p.min-content {
 .nav-list__link--active {
   font-weight: 700;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  
+  }
