@@ -645,3 +645,154 @@ margin-top: 1rem;
   max-height: 100%;
   max-width: 100%;
 }
+
+/* Icon */
+
+
+
+
+.method {
+  display: inline-block;
+  vertical-align: middle;
+}
+.method:last-of-type {
+  margin-bottom: 0;
+}
+.method:nth-of-type(2) {
+  margin: 0 10vw;
+}
+.method span {
+  box-sizing: border-box;
+}
+
+.method:hover .method__span, .method:active .method__span, .method:focus .method__span {
+  color: red;
+}
+.method:hover .method__span:before, .method:active .method__span:before, .method:focus .method__span:before {
+  border: 3px solid rgba(0, 0, 128, 0.9);
+}
+.method:hover .method__icon-con--email, .method:active .method__icon-con--email, .method:focus .method__icon-con--email {
+  transform: skewX(-4deg) translate3d(10%, 0, 0);
+}
+.method:hover .method__icon-con--email:before, .method:active .method__icon-con--email:before, .method:focus .method__icon-con--email:before {
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.08, 1) 0.1s, left 0.4s cubic-bezier(0.23, 0.01, 0, 1) 0.1s;
+  left: -45%;
+}
+.method:hover .method__icon-con--email:after, .method:active .method__icon-con--email:after, .method:focus .method__icon-con--email:after {
+  left: -35%;
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.08, 1) 0.04s, left 0.4s cubic-bezier(0.23, 0.01, 0, 1) 0.04s;
+}
+.method:hover .method__icon-con--email:after, .method:hover .method__icon-con--email:before, .method:active .method__icon-con--email:after, .method:active .method__icon-con--email:before, .method:focus .method__icon-con--email:after, .method:focus .method__icon-con--email:before {
+  transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+  transform-origin: right;
+}
+.method:hover .method__icon-con--mobile, .method:active .method__icon-con--mobile, .method:focus .method__icon-con--mobile {
+  animation: mobile-shake 0.4s;
+}
+@keyframes mobile-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(2deg);
+  }
+  66% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.method:hover .method__icon-con--mobile .mobile-lines .mobile-lines__line, .method:active .method__icon-con--mobile .mobile-lines .mobile-lines__line, .method:focus .method__icon-con--mobile .mobile-lines .mobile-lines__line {
+  transition: transform 0.4s cubic-bezier(0.23, 0.01, 0, 1);
+}
+.method:hover .method__icon-con--mobile .mobile-lines .mobile-lines__line:before, .method:active .method__icon-con--mobile .mobile-lines .mobile-lines__line:before, .method:focus .method__icon-con--mobile .mobile-lines .mobile-lines__line:before {
+  transition: transform 0.4s;
+  transform: rotate(-45deg);
+}
+.method:hover .method__icon-con--mobile .mobile-lines .mobile-lines__line:after, .method:active .method__icon-con--mobile .mobile-lines .mobile-lines__line:after, .method:focus .method__icon-con--mobile .mobile-lines .mobile-lines__line:after {
+  transform: rotate(-45deg);
+  transition: transform 0s 0.6s;
+}
+.method:hover .method__icon-con--mobile .mobile-lines .mobile-lines__line--small:before, .method:active .method__icon-con--mobile .mobile-lines .mobile-lines__line--small:before, .method:focus .method__icon-con--mobile .mobile-lines .mobile-lines__line--small:before {
+  transition-delay: 0.1s;
+}
+.method:hover .method__icon-con--mobile .mobile-lines .mobile-lines__line--big:before, .method:active .method__icon-con--mobile .mobile-lines .mobile-lines__line--big:before, .method:focus .method__icon-con--mobile .mobile-lines .mobile-lines__line--big:before {
+  transition-delay: 0.2s;
+}
+.method:hover .method__icon-con--fb, .method:active .method__icon-con--fb, .method:focus .method__icon-con--fb {
+  transform: translate3d(14px, 0, 0);
+}
+.method:hover .method__icon-con--fb .bubble, .method:active .method__icon-con--fb .bubble, .method:focus .method__icon-con--fb .bubble {
+  transform: rotate(0deg);
+  opacity: 1;
+  transition: 0.8s cubic-bezier(0.23, 0.01, 0, 1) 0.1s;
+}
+.method:hover .method__icon-con--fb .bubble:after, .method:active .method__icon-con--fb .bubble:after, .method:focus .method__icon-con--fb .bubble:after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 0.8s cubic-bezier(0.23, 0.01, 0, 1) 0.1s;
+}
+
+.method__icon-con {
+  border-radius: 0.3vw;
+  border: 3px solid navy;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.method__icon-con--email {
+  width: 7.05vw;
+  height: 4.6vw;
+  transition: 0.8s cubic-bezier(0.23, 0.01, 0, 1);
+}
+.method__icon-con--email:after, .method__icon-con--email:before {
+  content: "";
+  position: absolute;
+  background: red;
+  height: 3px;
+  z-index: 1;
+  transform-origin: left;
+  transform: scale3d(0, 1, 1) translate3d(20%, 0, 0);
+}
+.method__icon-con--email:before {
+  top: 30%;
+  left: -25%;
+  width: 28%;
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.08, 1), left 0s 0.5s;
+}
+.method__icon-con--email:after {
+  bottom: 30%;
+  left: -15%;
+  width: 40%;
+  box-shadow: 0px 3px 0px 0px white;
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.08, 1) 0.03s, left 0s 0.5s;
+}
+.method__icon-con--email .icon {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65%;
+  backface-visibility: hidden;
+}
+.method__icon-con--email .icon:after, .method__icon-con--email .icon:before {
+  content: "";
+  height: 3px;
+  bottom: 0;
+  position: absolute;
+  background: navy;
+  width: 100%;
+  border-radius: 3px;
+}
+.method__icon-con--email .icon:before {
+  left: 50%;
+  transform-origin: left bottom;
+  transform: rotate(-39.5deg);
+}
+.method__icon-con--email .icon:after {
+  right: 50%;
+  transform-origin: right bottom;
+  transform: rotate(39.5deg);
+}
