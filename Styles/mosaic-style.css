@@ -120,9 +120,20 @@ body {
   gap: 0.125rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
+.product-grid-b {
+  display: grid;
+  gap: 0.125rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
 
 .card {
   aspect-ratio: 1 / 1.5;
+  /* border: 3px solid hotpink; */
+}
+
+.card-b {
+  aspect-ratio: 1 / 1;
   /* border: 3px solid hotpink; */
 }
 
@@ -167,6 +178,9 @@ body {
   .card.featured .card__title {
     font-size: 1.75rem;
   }
+
+
+
 }
 
 .main-title {
@@ -176,7 +190,6 @@ body {
   background: linear-gradient(-45deg, blue, red);
   padding: 0.125em 0.5em;
   margin-bottom: 1em;
-
   width: fit-content;
 }
 
@@ -220,4 +233,28 @@ a {
   color: inherit;
   text-decoration: none;
   
+  }
+
+  .title {
+    position: relative;
+    font-family: 'Epilogue', sans-serif;
+    font-size: clamp(1rem, 4vw, 2.5rem);
+    padding: 1rem;
+    text-align: center;
+    z-index: 1;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    margin: 0 auto;
+    width: 50em;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 13px 0 rgba(20, 21, 5, 0.8);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1em;
   }
