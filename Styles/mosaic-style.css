@@ -115,12 +115,12 @@ body {
   grid-row: 1 / 2;
 }
 
-.product-grid {
+.project-grid {
   display: grid;
   gap: 0.125rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
-.product-grid-b {
+.project-grid-b {
   display: grid;
   gap: 0.125rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -151,7 +151,7 @@ body {
   color: firebrick;
 }
 
-.card__price {
+.card__title-b {
   font-size: 1.5rem;
 }
 
@@ -181,24 +181,6 @@ body {
 
 
 
-}
-
-.main-title {
-  font-size: clamp(2rem, 5vw + 1rem, 5rem);
-  line-height: 1;
-  color: white;
-  background: linear-gradient(-45deg, blue, red);
-  padding: 0.125em 0.5em;
-  margin-bottom: 1em;
-  width: fit-content;
-}
-
-p.max-content {
-  width: max-content;
-}
-
-p.min-content {
-  width: min-content;
 }
 
 .content__header {
@@ -258,3 +240,11 @@ a {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 1em;
   }
+
+  .center{
+    margin: 0 auto;
+    width: 40%;
+    /* widht:40vw */
+    display: block;
+   }
+   
