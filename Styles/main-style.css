@@ -796,3 +796,8 @@ margin-top: 1rem;
   transform-origin: right bottom;
   transform: rotate(39.5deg);
 }
+
+.icone-medias-sociaux {
+  width: 2em;
+  height: auto;
+}
