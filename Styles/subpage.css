@@ -212,6 +212,18 @@ a[href^="mailto"] svg {
   padding: 1em;
 }
 
+.description-b {  
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+  margin: 0 auto;
+  width: 50em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+
+
+}
 
 .title-box {
   display: none;
