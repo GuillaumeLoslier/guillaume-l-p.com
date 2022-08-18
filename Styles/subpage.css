@@ -217,7 +217,7 @@ a[href^="mailto"] svg {
   grid-template-columns: auto;
   position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
   padding: 1em;
