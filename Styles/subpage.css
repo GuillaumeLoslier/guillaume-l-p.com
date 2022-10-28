@@ -266,11 +266,11 @@ a[href^="mailto"] svg {
 }
 
 
-.carousel-control prev {
+.carousel-control-prev {
   place-self: center left;
 }
 
-.carousel-control next {
+.carousel-control-next {
   place-self: center right;
 }
 
@@ -315,8 +315,8 @@ clip-path: circle(80.3% at 40% 78%);
   margin-top: 30px;
 }
 .tns-nav button{
-  width: 15px;
-  height: 15px;
+  width: 2em;
+  height: 2em;
   border-radius: 20px;
   border: none;
   margin: 0 5px;
