@@ -355,6 +355,146 @@ font-family: var(--ff-secondary);
 
 }
 
+/* * This is the styling for the accordion */
 
+
+* {
+  box-sizing:border-box;
+}
+
+.heading-primary {
+  font-size:1em;
+  padding:1em;
+  text-align:center;
+}
+.accordion dl,
+.accordion-list {
+   border:1px solid #ddd;
+}
+.accordion-list::after {
+  content: "";
+  display:block;
+  height:1em;
+  width:100%;
+  background-color:darken(#3838cc31, 10%);
+}
+
+.accordion dd,
+.accordion__panel {
+   background-color:rgba(238, 238, 238, 0.194);
+   font-size:1em;
+   line-height:1.5em; 
+}
+.accordion p {
+  font-family: 'Lato', sans-serif;
+  padding:1em 1em 1em 1em;
+}
+
+.accordion {
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    align-self: left;
+    background-color:rgba(238, 238, 238, 0);
+}
+.container {
+  max-width:960px;
+  margin:0 auto;
+  padding:1em 0 1em 0;
+}
+.accordionTitle,
+.accordion__Heading {
+ 
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+  background-color: lightgrey; 
+  align-self: flex-start;
+   text-align:center;
+     font-weight:700; 
+          padding :1em;
+          width: 100%;
+          display:block;
+          text-decoration:none;
+          color:rgb(0, 0, 0);
+          transition:background-color 0.5s ease-in-out;
+  border-bottom:10px solid darken(#ffffff, 5%);}
+  
+
+  .accordionTitle:before,
+.accordion__Heading:before {
+  content: "🕺🏻🤸🏽‍♀️";
+  font-size: 1em;
+  line-height: 0.5em;
+  float: left;
+  transition: transform 0.3s ease-in-out;
+}
+.accordionTitle:hover,
+.accordion__Heading:hover {
+  background-color: #ffc20c5b;
+}
+
+.accordionTitleActive,
+.accordionTitle.is-expanded {
+  background-color: #ffc20c5b;
+}
+.accordionTitleActive:before,
+.accordionTitle.is-expanded:before {
+  transform: rotate(-225deg);
+}
+
+
+
+.accordionItem {
+    height:auto;
+    overflow:hidden;
+    /* //SHAME: magic number to allow the accordion to animate */
+    
+     max-height:80em;
+    transition:max-height 1s;   
+ 
+    
+    @media screen and (min-width:48em) {
+         max-height:15em;
+        transition:max-height 0.5s
+        
+    }
+    
+   
+}
+ 
+.accordionItem.is-collapsed {
+    max-height:0;
+}
+.no-js .accordionItem.is-collapsed {
+  max-height: auto;
+}
+.animateIn {
+     animation: accordionIn 0.45s normal ease-in-out both 1; 
+}
+.animateOut {
+     animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+@keyframes accordionIn {
+  0% {
+    opacity: 0;
+    transform:scale(0.9) rotateX(-60deg);
+    transform-origin: 50% 0;
+  }
+  100% {
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+@keyframes accordionOut {
+    0% {
+       opacity: 1;
+       transform:scale(1);
+     }
+     100% {
+          opacity:0;
+           transform:scale(0.9) rotateX(-60deg);
+       }
+} 
 
 
