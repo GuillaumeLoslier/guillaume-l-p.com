@@ -123,11 +123,49 @@ body {
   font-weight: 700;
   line-height: 1.7;
   margin: 0em 0 15px;
-  padding: 0;
+  padding: 0.5em;
   text-align: center;
+  position: relative;
+  border-top: 3px solid rgba(182, 182, 0, 0.406); 
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000, transparent);
+  background-image:
+      -moz-linear-gradient(rgba(182, 182, 0, 0.406), transparent),
+      -moz-linear-gradient(rgba(182, 182, 0, 0.406), transparent);
+  background-image:
+      -o-linear-gradient(rgba(182, 182, 0, 0.406)0, transparent),
+      -o-linear-gradient(rgba(182, 182, 0, 0.406)0, transparent);
+  background-image: 
+      linear-gradient(rgba(182, 182, 0, 0.406), transparent),
+      linear-gradient(rgba(182, 182, 0, 0.406), transparent);
+  -moz-background-size: 3px 100%;
+  background-size: 3px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat; 
+}
+
+}
+/* .intro-page-title::before, .intro-page-title::after {
+  content: "";
+  position: absolute;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000, transparent);
+  background-image: -moz-linear-gradient(#000, transparent);
+  background-image: -o-linear-gradient(#000, transparent);
+  background-image: linear-gradient(#000, transparent);
+  top: -3px;
+  bottom: -3px;
+  width: 3px;
+
 
 }
 
+.intro-page-title::before  {
+  left: -3px;
+}
+.intro-page-title::after  {
+  right: -3px;
+} */
 
 .stacked {
   display: grid;
@@ -161,7 +199,7 @@ body {
 }
 
 .card__content {
-  background: white;
+  background: snow;
   align-self: end;
   margin: 0.5rem 0.5rem 2rem;
   padding: 0.5rem;
@@ -171,7 +209,7 @@ body {
 .card__title {
   font-size: 1.25rem;
   line-height: 1.1;
-  color: firebrick;
+  color: #413155;
 }
 
 .card__title-b {
