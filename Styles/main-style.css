@@ -126,18 +126,6 @@ html {
   --font-primary: 'Epilogue', sans-serif;
   --font-header: var(--font-primary);
   --font-size--intro-header: 4rem;
-  /* background-image:linear-gradient(#baa4f4,#F1F8FF); */
-  /* background : url(/Images/background-lines.jpg),
-               url(/Images/suggestions-pour-danser/guillaume-poings.jpeg);
-background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
-  /* background : url(/Images/background-lines-1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: #f1efe9;
 }
 
 h1 {
@@ -284,6 +272,8 @@ body {
 .nav-list__link--active {
   font-weight: 700;
 }
+
+
 .intro {
   grid-column-end: span 2;
   grid-gap: 1rem;
@@ -312,6 +302,8 @@ body {
 .intro__content {
   grid-column-end: span 5;
 }
+
+
 .intro__content [data-guillaume] {
   cursor: pointer;
 }
@@ -332,6 +324,7 @@ body {
   position: relative;
   font-size: var(--font-size--intro-header);
 }
+
 .intro__header--small {
   font-size: inherit;
 }
@@ -339,7 +332,66 @@ body {
   margin-block-end: 1em;
   font-size: var(--font-size--intro);
   font-weight: 700;
+    position:relative;
+    z-index:1;
+
 }
+/* .intro__large--background-image {
+    position:absolute;
+    z-index:-1;
+    opacity: 0.3;
+   background-blend-mode: lighten;
+   margin-left: 5em;
+   height: 5em;
+   width: 5em;
+
+}
+
+.intro__large--background-image:nth-child(2) {
+  position:absolute;
+  z-index:-1;
+  margin-left: 13em;
+  opacity: 0.3;
+  filter: hue-rotate(40deg);
+  ;
+  height: 13em;
+  width: 13em;
+
+}
+
+.intro__large--background-image:nth-child(3) {
+  position:absolute;
+  z-index:-2;
+  margin-left: 10em;
+margin-bottom: 3em;  opacity: 0.1;
+  filter: hue-rotate(180deg);
+
+  height: 4em;
+  width: 4em;
+
+}
+.intro__large--background-image:nth-child(4) {
+  position:absolute;
+  z-index:-3;
+  margin-left: 3em;
+  opacity: 0.3;
+  filter: hue-rotate(270deg);
+  height: 5em;
+  width: 5em;
+
+}
+.intro__large--background-image:nth-child(5) {
+  position:absolute;
+  z-index:-1;
+  margin-left: 3em;
+  opacity: 0.3;
+  filter: hue-rotate(200deg);
+  height: 17em;
+  width: 17em;
+
+} */
+
+
 .intro__guillaumes {
   grid-column-end: span 4;
   position: relative;
