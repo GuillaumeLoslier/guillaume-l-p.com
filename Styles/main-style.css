@@ -126,6 +126,7 @@ html {
   --font-primary: 'Epilogue', sans-serif;
   --font-header: var(--font-primary);
   --font-size--intro-header: 4rem;
+  background-color: #f1efe9;
 }
 
 h1 {
